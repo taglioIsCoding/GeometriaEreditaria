@@ -28,5 +28,6 @@ public class Sfera extends Cerchio {
     public void calcolaVol()
     {
         double vol = costante*pgreco*Math.pow(diametro/2, 3);
+        System.out.println(vol);
     }
 }

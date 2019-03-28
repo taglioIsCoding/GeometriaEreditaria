@@ -16,6 +16,7 @@ public class GeometrieEreditarie {
      */
     public static void main(String[] args) {
         Sfera ciao = new Sfera(5);
+        ciao.calcolaVol();
     }
     
 }
